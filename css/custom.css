@@ -1,0 +1,173 @@
+/*fixed contact button bottom right*/
+.contact-btn {
+	transition: padding 0.5s ease;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+	padding-top: 15px;
+	z-index: 1;
+}
+.contact-btn:hover {
+	padding: 40px;
+	color: #4FA585;
+}
+.custom-contact {
+	color: white;
+}
+
+/*end*/
+
+/*index header image*/
+#index-header {
+	background: linear-gradient(rgba(155,155,155,0.6),rgba(1,0,0,0.6)),url('../img/home-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*end*/
+/*tabs*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background: transparent;
+	border-bottom: none;
+	color: white;
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+	border-bottom: none;
+}
+.nav-tabs.nav-justified>li>a {
+	border-bottom: none;
+	border-radius: 15px 30px 0px 0px;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	font-size: 30px;
+}
+.nav-tabs.nav-justified>li.active {
+	border-bottom: none;
+	background: #4FA585;
+}
+.nav-tabs.nav-justified>li.active>a {
+	border-bottom: none;
+}
+.nav-tabs>li>a:hover {
+	background: transparent;
+}
+.custom-tab {
+	background: #3d3d3d
+}
+#motor{
+
+}
+.motor-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+#home {
+
+}
+.home-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+#travel {
+
+}
+.travel-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+#commercial {
+	
+}
+.commercial-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+#health {
+	
+}
+.health-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+#life {
+	
+}
+.life-tab {
+	border-radius: 15px 30px 0px 0px;
+}
+.tab-block {
+	border-radius: 15px;
+	padding: 20px;
+}
+.tab-pane {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+	background: #3D3D3D;
+	border-top: 30px solid #4FA585;
+}
+.grid-img > h3 {
+	line-height: 200px;
+}
+.tab-text {
+	color: white;
+	text-align: center;
+}
+.grid-img {
+	height: 250px;
+	border: 2px solid #727272;
+}
+.grid-img:hover {
+	border: 5px solid #4FA585;
+}
+#car-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car.jpg) no-repeat scroll center;
+}
+#bike-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/motorbike.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/motorbike.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/motorbike.jpg) no-repeat scroll center;
+}
+#breakdown-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/breakdown.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/breakdown.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/breakdown.jpg) no-repeat scroll center;
+}
+#hire-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car-hire.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car-hire.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/car-hire.jpg) no-repeat scroll center;
+}
+#commercial-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/van.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/van.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/van.jpg) no-repeat scroll center;
+}
+#fleet-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/fleet.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/fleet.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/fleet.jpg) no-repeat scroll center;
+}
+#home-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/home.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/home.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/home.jpg) no-repeat scroll center;
+}
+#contents-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
+}
+/*blurb section*/
+.blurb {
+	background: linear-gradient(rgba(150,150,150,0.8),rgba(1,0,0,0.8)),  url(../img/office.jpg) no-repeat center center fixed ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	text-align: center;
+	color: white;
+	padding: 100px;
+}
+.blurb-text {
+	font-family: 'Work Sans', sans-serif;
+}
