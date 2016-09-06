@@ -209,6 +209,29 @@
 .pension-text {
 	text-align: center;
 }
+/*health tab styling*/
+.health-box {
+	transition: background 0.4s ease-in-out;
+	background: #727272;
+	text-align: center;
+	padding: 25px;
+	border: 2px solid #FFFFFF
+}
+.health-box:hover {
+	background: #4FA585;
+}
+.life {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/family_header.jpg) no-repeat center center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/family_header.jpg) no-repeat center center ;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/family_header.jpg) no-repeat center center ;
+	background-size: cover;
+	padding: 50px;
+	text-align: center;
+}
+.life-form {
+	background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+	border-top: 20px solid #4FA585;
+}
 /*blurb section*/
 .blurb {
 	background: linear-gradient(rgba(150,150,150,0.8),rgba(1,0,0,0.8)),  url(../img/office.jpg) no-repeat center center fixed ;
