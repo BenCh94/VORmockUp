@@ -1,6 +1,9 @@
+#VOR Insurance Mock Up
 A mock up site built on the start bootstrap clean blog theme. The site also includes custom elements such as the tab section on the index page.
 
 
+
+Start bootstrap Clean blog details.
 
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/)
