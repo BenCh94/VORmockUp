@@ -96,6 +96,7 @@
 .tab-block {
 	border-radius: 15px;
 	padding: 20px;
+	color: white;
 }
 .tab-pane {
 	padding-top: 50px;
@@ -157,6 +158,56 @@
 	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
 	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
 	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/contents.jpg) no-repeat scroll center;
+}
+#property-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/commercial.jpg) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/commercial.jpg) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/commercial.jpg) no-repeat scroll center;
+}
+#portfolio-image {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/portfolio.png) no-repeat scroll center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/portfolio.png) no-repeat scroll center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/portfolio.png) no-repeat scroll center;
+}
+/*Travel tab styling*/
+.travel-header {
+	height: 250px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/travel-header.png) no-repeat center center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/travel-header.png) no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/travel-header.png) no-repeat center center;
+	text-align: center;
+}
+.travel-button {
+	background-color: #4FA585;
+	color: #FFFFFF;
+	margin: 5px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	height: 100px;
+	border-radius: 5px;
+}
+.travel-button:hover {
+	border: 2px solid #FFFFFF;
+}
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*Pension Tab styling*/
+.pension-header {
+	text-align: center;
+	min-height: 300px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/pension.jpg) no-repeat center center;
+	background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/pension.jpg) no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url(../img/pension.jpg) no-repeat center center;
+}
+.pension-text {
+	text-align: center;
 }
 /*blurb section*/
 .blurb {
